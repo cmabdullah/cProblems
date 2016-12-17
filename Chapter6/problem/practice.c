@@ -169,15 +169,84 @@ int main(){
 }
 ************/
 
+
+
+/**********
 #include<stdio.h>
 int main(){
-    int i,j,k,n;
-    scanf("%d",&n);
-    for (i = n; i>0;--i){
-        for(k = 0; k < n-i ; ++k)
-            printf("  ");
-        for (j = i; j <=2*i-1 ;++j)
-            printf("*   ");
-        printf("\n");
+    int ar[] = {2,4,5,10, 20, 30} ;
+    int  start, end , mid , key;
+
+    start = 0;
+    end = 5;
+
+    scanf("%d",&key);
+    while(start<=end){
+        mid = (start+end)/2 ;
+
+        if(key == ar[mid]){
+                break;
+
+        }
+        if(key < ar[mid]){
+            end  = mid-1;
+        }
+        else{
+            start = mid+1;
+        }
+
     }
+    printf("%d %d", mid, ar[mid]);
+
 }
+***/
+
+#include<stdio.h>
+int main(){
+    int ar[] = {10,20,30,40};
+    int i , n  , k;
+    scanf("%d",&n);
+
+    for (i = 0; i<4 ; i++){
+        if (ar[i]==n)
+            printf("%d", i);
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

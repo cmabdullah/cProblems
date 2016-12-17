@@ -14,6 +14,7 @@ void main(){
             decimal = decimal + rem * base;
             num = num / 10 ;
             base = base * 2;
+            printf("reminder is     %d \n", rem);
         }
-        printf("Its decimal equivalent is = %d \n", decimal);
+                      printf("Its decimal equivalent is = %d \n", decimal);
     }
