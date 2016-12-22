@@ -4,26 +4,21 @@ Write a program that invokes a function called find() to perform the following t
     (b)  Returns 1 if the specified character is found in the array ,0 otherwise.
 ***/
 //uc
-#include<stdio.h>
-//
-//void  find(int  num[],char 'c');
-//void main(){
-//    int a[8],i,j;
-//for(i=0;  i<=8;  ++i)
-//printf("%d",a[j]);
-//  if(a[i]= i);
-//    find(a[i]);
-//
-//}
-//void  find(int num[8]){
-//    int j;
-//    printf("%d",num[j]);
-//  if(num[j]=j)
-//    return(1);
-//  else
-//    return(0);
-//}
-
-
-
+#include <stdio.h>
+#include<string.h>
+int main(){
+    char name[10]={'L','e','s','s','o','n','s','\0'};
+    char x;
+    int m;
+scanf("%c",&x);
+       find(name, x);
+ //  printf("%c",find(x));
+}
+ void   find(char  num[10], char k){
+        int i;
+      //  printf("%c", k);
+    for (i = 0; i<10 ; i++){
+            if (num[i] == k)
+    printf("\n\n%c ", num[i]);
+  }
 }
