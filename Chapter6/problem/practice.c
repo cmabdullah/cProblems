@@ -200,23 +200,59 @@ int main(){
 
 }
 ***/
+//
+//#include<stdio.h>
+//int main(){
+//    int ar[] = {10,20,30,40};
+//    int i , n  , k;
+//    scanf("%d",&n);
+//
+//    for (i = 0; i<4 ; i++){
+//        if (ar[i]==n)
+//            printf("%d", i);
+//    }
+//
+//
+//}
+
+
+
 
 #include<stdio.h>
 int main(){
-    int ar[] = {10,20,30,40};
-    int i , n  , k;
-    scanf("%d",&n);
+    int i=0 , j=0 , k=0 , l , a[5]={0,25,37 , 96 , 100}, b[5]  = {1 ,3 , 5 , 40 , 57}, res[10];
 
-    for (i = 0; i<4 ; i++){
-        if (ar[i]==n)
-            printf("%d", i);
+    while(i <= 4  &&  j<=4){
+            if(a[i]<b[i]){
+                res[k]= a[i];
+            i++;
+            k++;
+            }
+            else{
+                res[k] = b[j];
+            j++;
+            k++;
+}
+    }
+
+    while(i<5){
+        res[k] = a[i];
+        i++;
+        k++;
+    }
+
+    while(j<5){
+        res[k] = b[j];
+        i++;
+        k++;
     }
 
 
+    for (k = 0; k<=9 ; k++){
+        printf("%d ",res[k]);
+    }
+
 }
-
-
-
 
 
 

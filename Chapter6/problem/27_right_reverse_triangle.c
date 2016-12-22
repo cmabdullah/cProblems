@@ -16,7 +16,7 @@ int main(){
                 if(b < a){
                 printf(" ");
             } else {
-                printf("*");
+                printf("* ");
             }
         }
         printf("\n");
