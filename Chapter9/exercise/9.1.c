@@ -1,63 +1,20 @@
-
-/********
- Develop a top doun modular program to implement a calculator .
- The program should request the user to input two numbers and display one of the following as per the desire of the user:
-    (a ) sum of the numbers
-    (b)  Difference  of the numbers
-    (c) Product of the numbers
-    (d) Division of the numbers
-Provide separate functions for performing various tasks such as reading ,
-cakculating and displaying. Calculating module should call second   level moduls to perform
-the individual mathematical operations.   The main function should have only function calls.
-***/
-// (a)
-/****
-#include<stdio.h>
-void sum (int i,int j) ;
-void main(){
-sum(5,6);
-}
-void sum(int i, int j){
-int total;
-total=i+j;
-printf("%d",total);
-}
+/**
+Write a function exchange to interchange the values of two variables ,
+say x and y. Illustrate the use of this function, in a calling function .
+Assume that x and y are defined as global variables.
 **/
-//(b)
-/***
 #include<stdio.h>
-void diff (int i,int j) ;
-void main()
-{
-diff(5,6);
+void exchange(int i,int j);
+void main  (void){
+    int x=2,y=3;
+    printf("Before exchange i=%d j=%d\n", x,y);
+    exchange(x,y);
+    printf("\n\n%d %d",x,y);
 }
-void diff(int i, int j){
-int total;
-total=i-j;
-printf("%d",total);
+void  exchange(int i,int j){
+    int  temp;
+    temp=i;
+    i=j; j=temp;
+    printf("After exchange i=%d,j=%d \n",i,j);
 }
-***/
-//(c)
-/***
-#include<stdio.h>
-void prod (int i,int j) ;
-void main(){
-product(5,6);
-}
-void product(int i, int j){
-int total;
-total=i*j;
-printf("%d",total);
-}
-****/
-//(d)
-#include<stdio.h>
-void div (int i,int j) ;
-void main(){
-div(10,6);
-}
-void div(int i, int j){// data type convert first@abdullah
-float total;
-total=(float)i/(float)j;
-printf("%f",total);
-}
+
