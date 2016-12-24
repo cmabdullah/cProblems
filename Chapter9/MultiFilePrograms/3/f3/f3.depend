@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1482553343 source:c:\users\nazmul\c-problem\chapter9\multifileprograms\3\f3\main.c
+	<stdio.h>
+
+1482553610 source:c:\users\nazmul\c-problem\chapter9\multifileprograms\3\f3\func.c
+	<stdio.h>
+
