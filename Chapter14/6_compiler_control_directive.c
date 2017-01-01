@@ -3,8 +3,8 @@
 ///compiler control directive
 /******************
 #if
-#ifdef
-#ifndef
+#ifdef       => #if defined
+#ifndef      => #if !defined
 #elif
 #else
 #endif
@@ -13,11 +13,7 @@
 int main(){
     #ifdef __STDC__
     printf("ANSI mode");
-
     #else
-    printf("ANSI mode");
-
+    printf("not ANSI mode");
     #endif // __STDC__
-
-
 }

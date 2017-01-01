@@ -5,8 +5,8 @@
 #define sum(a,b)((a)+(b))
 #define sub(a,b)((a)-(b))
 #define div(a,b,c)((a)/((b)-(c)))
-#define mul(a,b,c)((a)*((b)+(c)))
-//              ---- no space between here
+#define mul(a,b,c) ((a)*((b)+(c)))
+//      ---- no space between here
 #define sq(x)((x)*(x))
 #define cube(x)(sq(x)*(x))
 int main(){
