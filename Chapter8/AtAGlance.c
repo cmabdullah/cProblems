@@ -2,6 +2,9 @@
 	char x = 'hi' ;///char it must print only one digit//print only last degit
 	char ab[] = "Abdullah" ;//string variable as array
     	char* y = "hi" ;///string variable as pointer
+	1. char **argv;  //recommended
+	2. char *argv[] ;//1 and 2 both are same job
+
 /*******
 no extra location,4 
 first allowcate address by using "malloc(10 * sizeof(char)) ;"
