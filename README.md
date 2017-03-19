@@ -3,19 +3,19 @@ Like most imperative languages C has facilities for structured programming and a
 
 ## Features 
 
-*Chapter02 =>constants variables data types.
-*Chapter03 =>operator and expression.
-*Chapter04 =>managing input and output operations.
-*Chapter05 =>decision making and branching.
-*Chapter06 =>decision making and looping.
-*Chapter07 =>arrays.
-*Chapter08 =>character arrays and strings.
-*Chapter09 =>user defined functions.
-*Chapter10 =>structures and unions.
-*Chapter11 =>pointers.
-*Chapter12 =>file management in C.
-*Chapter13 =>dynamic memory allocation and linked list.
-*Chapter14 =>the preprocessor in C.
+* Chapter02 =>constants variables data types.
+* Chapter03 =>operator and expression.
+* Chapter04 =>managing input and output operations.
+* Chapter05 =>decision making and branching.
+* Chapter06 =>decision making and looping.
+* Chapter07 =>arrays.
+* Chapter08 =>character arrays and strings.
+* Chapter09 =>user defined functions.
+* Chapter10 =>structures and unions.
+* Chapter11 =>pointers.
+* Chapter12 =>file management in C.
+* Chapter13 =>dynamic memory allocation and linked list.
+* Chapter14 =>the preprocessor in C.
 
 ### How to use
 
