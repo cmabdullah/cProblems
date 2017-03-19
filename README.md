@@ -20,3 +20,24 @@ Like most imperative languages C has facilities for structured programming and a
 ### How to use
 
 The major topics such as arrays,character arrays,strings,functions,pionters,linked lists,dynamic memory allocations has discussed above those chapters(Chapter08,Chapter09,Chapter10,Chapter11,Chapter13,Chapter14).Those folder has given AtAGlance.c file that contains some importent statements that should know each programmer.By the way AtAGlance.c file is not executable, .c is for make sure to code highlight.
+
+
+###EOF cHeck
+```cpp
+#include<stdio.h>
+#include<stdlib.h>
+int main(){
+    FILE *user , *instructor;
+    int x , y;
+    user = fopen("output.txt" , "r");
+    instructor = fopen("uoutput.txt" , "r");
+        while(fscanf(user, "%d" , &x) != EOF){
+        fscanf(instructor, "%d" , &y);
+        if (x != y){
+            printf("Wrong\n");
+        }
+    }
+    printf("accept");
+    fclose(user);
+    fclose(instructor);
+}
